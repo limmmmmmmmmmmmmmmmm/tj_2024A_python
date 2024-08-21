@@ -26,7 +26,8 @@ def nameCreate( ) :
 
 def nameRead( ) :
     global names
-    print(names)
+    for a in names :
+        print(a)
     return
 
 def nameUpdate(  ) :
@@ -59,4 +60,5 @@ while True :
     elif ch == 3 : nameUpdate( )
     elif ch == 4 : nameDelete( )
     else: break
+
 
